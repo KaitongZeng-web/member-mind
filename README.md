@@ -165,7 +165,6 @@ docker compose up -d --build
 ├── backend/                   # FastAPI 路由、业务逻辑、数据访问与 MCP 网关
 ├── config/                    # 初始化数据及配置
 ├── tests/                     # 自动化测试
-├── wheels/                    # Windows CPython 3.13 离线依赖包
 ├── .github/workflows/         # GitHub Actions 工作流
 ├── run.py                     # 启动 FastAPI 服务
 ├── start.py                   # 本地环境检查、依赖安装与启动脚本
@@ -177,7 +176,8 @@ docker compose up -d --build
 ├── Dockerfile
 ├── compose.yaml
 ├── OFFLINE_DEMO.md            # 独立演示版说明
-└── 验证记录.md                # 当前版本验证记录
+├── 验证记录.md                 # 当前版本验证记录
+└── skill                      # 内嵌至Workbuddy，非技术人员0摩擦上手
 ```
 
 ## 相关链接
