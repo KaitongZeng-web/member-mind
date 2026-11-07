@@ -1,0 +1,19 @@
+{
+  "conditions": {
+    "logic": "and",
+    "conditions": [
+      {"field": "region", "op": "eq", "value": "深圳"},
+      {"field": "industry", "op": "eq", "value": "工业传感器"},
+      {"field": "member_status", "op": "eq", "value": "老会员"},
+      {"field": "renewal_status", "op": "eq", "value": "未续费"},
+      {"field": "contactable_status", "op": "eq", "value": "可联系"}
+    ]
+  },
+  "hard_exclusions": [
+    {"field": "contactable_status", "op": "eq", "value": "拒绝联系"},
+    {"field": "member_status", "op": "eq", "value": "已注销"}
+  ],
+  "rule_version": "demo-1.0.0",
+  "rule_is_mock": true,
+  "scope": "演示(mock)规则：深圳+工业传感器+未续费+可联系的老会员；硬排除拒绝联系与已注销。此条件树由宿主从自然语言生成，脚本只做可复核计算。"
+}

@@ -1,0 +1,38 @@
+{
+  "visit_id": "VISIT_ID_PLACEHOLDER",
+  "tasks": [
+    {
+      "source_item_id": "m1",
+      "deliverable": "传感器选型对比方案（交期+本地服务响应）",
+      "owner": "李敏",
+      "deadline_relative": {
+        "text": "下周五之前",
+        "days": 10
+      },
+      "channel": "邮件",
+      "next_trigger": "方案发送后第3个工作日复访"
+    },
+    {
+      "source_item_id": "n1",
+      "deliverable": "国产替代传感器对比资料整理",
+      "channel": "内部",
+      "non_contact_action": true
+    },
+    {
+      "source_item_id": "m1",
+      "deliverable": "电话跟进方案反馈",
+      "owner": "李敏",
+      "deadline": "2026-10-25",
+      "channel": "电话推销"
+    },
+    {
+      "source_item_id": "m2",
+      "deliverable": "安排样机测试",
+      "owner": "李敏",
+      "dependencies": [
+        "客户张经理确认测试时间"
+      ],
+      "channel": "邮件"
+    }
+  ]
+}

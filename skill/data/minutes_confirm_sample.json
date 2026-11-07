@@ -1,0 +1,13 @@
+{
+  "confirmed_by": "李敏（客户负责人）",
+  "decisions": [
+    {"id": "c1", "decision": "confirm"},
+    {"id": "n1", "decision": "confirm"},
+    {"id": "nc1", "decision": "confirm"},
+    {"id": "m1", "decision": "confirm"},
+    {"id": "m2", "decision": "confirm"},
+    {"id": "q1", "decision": "confirm"},
+    {"id": "i1", "decision": "reject"},
+    {"id": "bad1", "decision": "reject"}
+  ]
+}
