@@ -44,11 +44,6 @@ python run.py
 
 Skill 位于 [`skill/member-service/`](skill/member-service/)，入口文件为 [`SKILL.md`](skill/member-service/SKILL.md)。其中包含可执行脚本、模板、参考规则、样例数据和测试。可先阅读 Skill 文档及其 README，再按所使用的 Agent 平台要求安装或导入。
 
-## 演示页面
-
-- [产品介绍页面](demos/product-overview.html)
-- [方案讨论页面](demos/team-discussion.html)
-
 ## 安全与数据说明
 
 - 仓库不应包含真实 API Key、访问令牌、数据库文件或真实客户隐私数据。
