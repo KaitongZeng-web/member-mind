@@ -1,3 +1,6 @@
+> **离线演示入口：** [在线演示（GitHub Pages 部署完成后）](https://KaitongZeng-web.github.io/member-mind/) · [离线 HTML（下载根目录 index.html）](https://github.com/KaitongZeng-web/member-mind/blob/main/index.html) · [离线演示说明](OFFLINE_DEMO.md)  
+> 本离线页面无需后端即可打开，内置演示数据；DeepSeek / 企查查 MCP 为接入占位，真实调用仍需安全后端。原 Python + SQLite 服务保持不变。
+
 # 企服智台｜Python + SQLite 前后端版
 
 连接恢复：聊天遇到本地服务短暂断开时显示中文说明与“重新连接”按钮，正在执行的查询会有限次数重连读取进度，不自动重发企业查询。恢复后清除过期的断线提示并同步历史；服务重启导致的中断会如实显示在原对话中。未确认是否送达的发送保留输入并暂时禁止再次发送，重新连接后以已保存记录为准。旧页面凭证失效时，仅在服务明确拒绝且尚未执行操作的情况下刷新凭证重试一次。连接恢复的7项前端回归测试可运行 `node --test tests/frontend_connection.test.cjs`。
