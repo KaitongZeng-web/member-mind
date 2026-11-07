@@ -1,0 +1,11 @@
+services:
+  workspace:
+    build: .
+    ports:
+      - "127.0.0.1:8877:8877"
+    volumes:
+      - workspace_data:/app/data
+    environment:
+      APP_ALLOWED_HOSTS: "127.0.0.1,localhost"
+volumes:
+  workspace_data:
