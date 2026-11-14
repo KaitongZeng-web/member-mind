@@ -1,4 +1,4 @@
-<img width="1877" height="901" alt="屏幕截图 2026-11-14 203200" src="https://github.com/user-attachments/assets/84bed7fa-11b5-4825-bd03-263d86c39688" /># 企服智台（Member Mind）
+# 企服智台（Member Mind）
 
 面向企业会员服务场景的数字化工作台。项目以企业档案为数据基础，围绕企业资料检索、会员筛选、拜访简报、会议匹配和服务行动管理，帮助服务团队把分散的会员信息转化为可查询、可核验、可持续更新的服务记录。
 
@@ -8,7 +8,7 @@
   <a href="https://github.com/KaitongZeng-web/member-mind/blob/main/index.html">查看演示页面源码</a>
 </p>
 
-"E:\Hackthon\member-mind\屏幕截图 2026-11-14 203200.png"
+<img width="1877" height="901" alt="屏幕截图 2026-11-14 203200" src="https://github.com/user-attachments/assets/84bed7fa-11b5-4825-bd03-263d86c39688" />
 
 > **演示说明：** 上方链接打开的是仓库根目录 `index.html` 部署到 GitHub Pages 的独立演示版。无需安装 Python 或启动后端，内置模拟数据，可直接体验主要页面和交互。演示版中的 DeepSeek、企查查 MCP 等外部服务入口用于展示接入位置，不代表已在该静态页面中完成真实调用。
 
